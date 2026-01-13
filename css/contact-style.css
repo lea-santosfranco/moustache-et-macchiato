@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+body{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdfaf7;
+    color: #4a3427;
+}
+header{
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #4a3427;
+    font-weight: bold;
+}
+.contact-container{
+    display: flex;
+    gap: 50px;
+    padding: 50px 5%;
+}
+.contact-infos, .contact-form{
+    flex: 1;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+.bouton-envoi{
+    background-color: #4a3427;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer {
+    background-color: #f5ebe0;
+    padding: 30px 0 10px 0;
+    width: 100%;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+}
+.footer-socials {
+    display: flex;
+    grid-gap: 40px;
+}
+.groslogo {
+    color: blueviolet;
+    display: inline-block;
+}
+.groslogo:hover {
+    transform: scale(1.7);
+}
+.footer-bottom {
+    background-color: #f5ebe0;
+    border-top: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+}

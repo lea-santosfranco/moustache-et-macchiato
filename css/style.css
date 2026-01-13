@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdfaf7;
+    color: #4a3427;
+}
+header{
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #4a3427;
+    font-weight: bold;
+}
+.hero{
+    display: flex;
+    padding: 50px 5%;
+    align-items: center;
+    gap: 40px;
+    background-color: #f5ebe0;
+}
+.hero-texte, .hero-image{
+    flex: 1;
+}
+.hero-image img{
+    width: 100%;
+    border-radius: 20px;
+}
+.bouton-cta{
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #d2a679;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.grille-atouts, .grille-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 50px 5%;
+}
+footer {
+    background-color: #f5ebe0; /*Couleur fond footer*/
+    padding: 30px 0 10px 0;
+    width: 100%;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.footer-socials {
+    display: flex;
+    grid-gap: 40px;
+}
+/*Transformation : grossissement (scale)*/
+.groslogo {
+    color: blueviolet;
+    display: inline-block;
+}
+    /*Important pour le transform*/
+.groslogo:hover {
+    transform: scale(1.7);
+}
+
+.footer-bottom {
+    background-color: #f5ebe0;
+    border-top: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
